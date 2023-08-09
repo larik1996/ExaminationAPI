@@ -1,0 +1,13 @@
+{
+  "name": "ExaminationAPI",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "*"
+  },
+  "dependencies": {
+    "json-server-auth": "^2.1.0"
+  },
+  "scripts": {
+    "server": "npx json-server-auth http://jsonplaceholder.typicode.com/db"
+  }
+}
